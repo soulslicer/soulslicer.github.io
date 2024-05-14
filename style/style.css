@@ -1,0 +1,134 @@
+/* Design Credits: Jon Barron and Abhishek Kar and Saurabh Gupta*/
+a {
+    color: #1772d0;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #f09228;
+    text-decoration: none;
+}
+
+body,
+td,
+th {
+    font-family: 'Avenir';
+    font-size: 16px;
+    font-weight: 400
+}
+
+heading {
+    font-family: 'Avenir';
+    font-size: 17px;
+    /* 19 */
+    font-weight: 500;
+    /* 600 */
+}
+
+strong {
+    font-family: 'Avenir';
+    font-size: 16px;
+    font-weight: 600
+        /* 800 */
+}
+
+strongred {
+    font-family: 'Avenir';
+    color: 'red';
+    font-size: 16px
+}
+
+sectionheading {
+    font-family: 'Avenir';
+    font-size: 28px;
+    font-weight: 600
+}
+
+subheading {
+    font-family: 'Avenir';
+    color: 'red';
+    font-size: 24px;
+    font-weight: 400
+}
+
+pageheading {
+    font-family: 'Avenir';
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.ImageBorder {
+    border-width: 1px;
+    border-color: Black;
+}
+
+img.pub {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+video.pub {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+div.bibtex {
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+pre {
+    width: 750px;
+    overflow-x: auto;
+    border: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+tr.pub {
+    padding: 0px;
+    margin: 0px
+}
+
+td .pub_thumbnail {
+    width: 39.1%;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.pub_text {
+    width: 60.3%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    text-align: left;
+    vertical-align: top;
+}
+
+span.pub_venue {
+    color: darkred;
+    font-weight: bold;
+}
+
+sticker {
+    color: white;
+    background-color: red;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    vertical-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
